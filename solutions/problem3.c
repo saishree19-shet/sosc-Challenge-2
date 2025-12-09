@@ -1,14 +1,10 @@
 #include <stdio.h>
 #include <math.h>
 
-#define NUM_STATES 4 // S0, S1, S2, S3 (DONE)
+#define NUM_STATES 4 
 #define DONE_STATE 3
-
-// FIX: Function Prototypes added to resolve compilation error
 int is_prime(int n);
 int simulate_states(int n);
-
-// Function to check if a number is prime
 int is_prime(int n) {
     if (n <= 1) return 0;
     if (n <= 3) return 1;
